@@ -1,5 +1,5 @@
 package edu.sdccd.cisc191.f.models;
-
+//Comment
 public abstract class Entity {
 
     protected int health;
