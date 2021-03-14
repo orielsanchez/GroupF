@@ -1,4 +1,4 @@
-package edu.sdccd.cisc191.f.models;
+package edu.sdccd.cisc191.f;
 //comment here
 //another comment
 public class Mage extends Player {

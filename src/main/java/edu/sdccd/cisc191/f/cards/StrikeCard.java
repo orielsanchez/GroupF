@@ -1,7 +1,7 @@
-package edu.sdccd.cisc191.f.models.cards;
+package edu.sdccd.cisc191.f.cards;
 
-import edu.sdccd.cisc191.f.models.Card;
-import edu.sdccd.cisc191.f.models.CardType;
+import edu.sdccd.cisc191.f.Card;
+import edu.sdccd.cisc191.f.CardType;
 
 public class StrikeCard extends Card {
     private int damage = 5;
@@ -25,9 +25,4 @@ public class StrikeCard extends Card {
         return isUpgraded;
     }
 
-    @Override
-    public void upgradeCard() {
-        damage += 1;
-        isUpgraded = true;
-    }
 }

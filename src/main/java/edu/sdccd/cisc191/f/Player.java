@@ -1,6 +1,6 @@
-package edu.sdccd.cisc191.f.models;
+package edu.sdccd.cisc191.f;
 
-public class Player extends Entity {
+public class Player extends Actor {
     protected int energy;
     protected int gold;
     protected Deck<Card> deck;
@@ -11,14 +11,6 @@ public class Player extends Entity {
         this.gold = gold;
     }
 
-
-    public int getBlock() {
-        return block;
-    }
-
-    public void setBlock(int block) {
-        this.block = block;
-    }
 
     public int getGold() {
         return gold;

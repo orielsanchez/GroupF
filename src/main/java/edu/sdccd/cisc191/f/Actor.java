@@ -1,12 +1,14 @@
-package edu.sdccd.cisc191.f.models;
+package edu.sdccd.cisc191.f;
 //Comment
-public abstract class Entity {
+public abstract class Actor {
 
     protected int health;
     protected int block;
-    protected boolean dead = false;
+    protected double attackMultiplier = 1.0;
+    protected double blockMultiplier = 1.0;
+    protected boolean isDead = false;
 
-    public Entity(int health, int block) {
+    public Actor(int health, int block) {
         this.health = health;
         this.block = block;
     }
@@ -28,10 +30,10 @@ public abstract class Entity {
     }
 
     public boolean isDead() {
-        return dead;
+        return isDead;
     }
 
     public void setDead(boolean dead) {
-        this.dead = dead;
+        this.isDead = dead;
     }
 }

@@ -1,4 +1,4 @@
-package edu.sdccd.cisc191.f.models;
+package edu.sdccd.cisc191.f;
 
 import java.util.*;
 

@@ -1,6 +1,4 @@
-package edu.sdccd.cisc191.f.models;
-
-import edu.sdccd.cisc191.f.models.Player;
+package edu.sdccd.cisc191.f;
 
 public class Warrior extends Player {
 

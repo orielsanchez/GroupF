@@ -1,7 +1,7 @@
-package edu.sdccd.cisc191.f.models.cards;
+package edu.sdccd.cisc191.f.cards;
 
-import edu.sdccd.cisc191.f.models.Card;
-import edu.sdccd.cisc191.f.models.CardType;
+import edu.sdccd.cisc191.f.Card;
+import edu.sdccd.cisc191.f.CardType;
 
 public class BlockCard extends Card {
     private int baseCost = 10;
@@ -16,6 +16,9 @@ public class BlockCard extends Card {
         this.baseBlock = baseBlock;
     }
 
+
+
+
     public int getBaseCost() {
         return baseCost;
     }
@@ -24,9 +27,4 @@ public class BlockCard extends Card {
         return baseBlock;
     }
 
-
-    @Override
-    public void upgradeCard() {
-
-    }
 }
