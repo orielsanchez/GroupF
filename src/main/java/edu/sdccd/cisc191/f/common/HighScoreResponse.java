@@ -1,4 +1,4 @@
 package edu.sdccd.cisc191.f.common;
 
-public class RequestHighScores {
+public class HighScoreResponse {
 }

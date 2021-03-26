@@ -1,4 +1,4 @@
 package edu.sdccd.cisc191.f.server;
 
-public class SortScoreByHIghest {
+public class HighScoreList {
 }

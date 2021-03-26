@@ -1,4 +1,4 @@
-package edu.sdccd.cisc191.f;
+package edu.sdccd.cisc191.f.client;
 
 import java.util.HashMap;
 

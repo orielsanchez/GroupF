@@ -1,7 +1,7 @@
 package edu.sdccd.cisc191.f.cards;
 
-import edu.sdccd.cisc191.f.Card;
-import edu.sdccd.cisc191.f.CardType;
+import edu.sdccd.cisc191.f.client.Card;
+import edu.sdccd.cisc191.f.client.CardType;
 
 public class StrikeCard extends Card {
     private int damage = 5;
